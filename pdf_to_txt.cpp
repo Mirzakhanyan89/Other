@@ -1,7 +1,13 @@
 /*	pdf_to_txt.cpp	
-	to compile this file You must have in your computer poppler pdf reader
-	and You must compile in this way
-	g++ -std=c++20 pdf_to_txt.cpp -lpoppler-cpp
+ Implement a program that will receive the path of a .pdf file as input.
+ The program reads the contents of the file and separates all the words, 
+ saving their output to a text file, one word per line. 
+ All words are converted to lowercase and extra characters are removed before saving.
+ Write once from the repeated words in the output file.
+
+To compile this file You must have in your computer poppler pdf reader
+and You must compile in this way
+g++ -std=c++20 pdf_to_txt.cpp -lpoppler-cpp
 */ 
 
 #include <iostream>
